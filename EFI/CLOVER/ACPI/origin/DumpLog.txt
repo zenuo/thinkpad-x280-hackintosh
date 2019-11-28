@@ -1,0 +1,115 @@
+10:903  1:982  Found UEFI Acpi 2.0 RSDP at 7FFFE014
+10:903  0:000  Saving ACPI tables from RSDP 7FFFE014 to EFI\CLOVER\ACPI\origin ...
+10:903  0:000   7FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:982  0:078    (Xsdt: 7FFB3188, Rsdt: 7FFB30C4)
+10:982  0:000    7FFB3188: 'XSDT', 'TP-N20', Rev: 1, Len: 260 -> XSDT.aml
+11:022  0:040    7FFB30C4: 'RSDT', 'TP-N20', Rev: 1, Len: 148 -> RSDT.aml
+11:062  0:040    Tables in Xsdt: 28
+11:062  0:000    0. 7FFED000: 'FACP', 'TP-N20', Rev: 5, Len: 244 -> FACP.aml
+11:106  0:044        (Dsdt: 7FFC3000, Facs: 7FF46000, XDsdt: 7FFC3000, XFacs: 0)
+11:106  0:000        7FFC3000: 'DSDT', 'SKL', Rev: 2, Len: 155603 -> DSDT.aml
+11:212  0:105        7FF46000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+11:252  0:040    1. 7FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 37733 -> SSDT-0-DptfTabl.aml
+11:315  0:062    2. 7FF5C000: 'UEFI', 'TP-N20', Rev: 1, Len: 66 -> UEFI.aml
+11:360  0:045    3. 7FFEF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464 -> SSDT-1-SaSsdt.aml
+11:405  0:045    4. 7FFEE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478 -> SSDT-2-PerfTune.aml
+11:459  0:053    5. 7FFEC000: 'HPET', 'TP-N20', Rev: 1, Len: 56 -> HPET.aml
+11:498  0:039    6. 7FFEB000: 'APIC', 'TP-N20', Rev: 3, Len: 300 -> APIC.aml
+11:536  0:037    7. 7FFEA000: 'MCFG', 'TP-N20', Rev: 1, Len: 60 -> MCFG.aml
+11:573  0:037    8. 7FFE9000: 'ECDT', 'TP-N20', Rev: 1, Len: 83 -> ECDT.aml
+11:618  0:044    9. 7FFC1000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7179 -> SSDT-3-RVP7Rtd3.aml
+11:664  0:046    10. 7FFBF000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692 -> SSDT-4-ProjSsdt.aml
+11:707  0:042    11. 7FFBE000: 'BOOT', 'TP-N20', Rev: 1, Len: 40 -> BOOT.aml
+11:747  0:040    12. 7FFBD000: 'BATB', 'TP-N20', Rev: 2, Len: 74 -> BATB.aml
+11:796  0:048    13. 7FFBB000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+11:850  0:053        * 7FF35098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1485  53 53 44 54 CD 05 00 00 02 BB 50 6D 52 65 66 00 Internal length = 1485 -> SSDT-x5_0-Cpu0Ist.aml
+11:890  0:040        * 7FEBB018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x5_1-ApIst.aml
+11:928  0:037        * 7FF1E698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x5_2-Cpu0Cst.aml
+11:965  0:037        * 7FF35B18: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x5_3-ApCst.aml
+12:002  0:037        * 7FF35718: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x5_4-Cpu0Hwp.aml
+12:045  0:042        * 7FEBA018: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x5_5-ApHwp.aml
+12:093  0:048        * 7FF1E018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x5_6-HwpLvt.aml
+12:130  0:037  
+12:130  0:000    14. 7FFBA000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-6-CtdpB.aml
+12:168  0:037    15. 7FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1674 -> SSDT-7-UsbCTabl.aml
+12:213  0:045    16. 7FFB8000: 'LPIT', 'TP-N20', Rev: 1, Len: 148 -> LPIT.aml
+12:264  0:050    17. 7FFB7000: 'WSMT', 'TP-N20', Rev: 1, Len: 40 -> WSMT.aml
+12:304  0:040    18. 7FFB6000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-8-HdaDsp.aml
+12:358  0:053    19. 7FFB5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237 -> SSDT-9-TbtTypeC.aml
+12:400  0:042    20. 7FFB4000: 'SSDT', 'Wwan', Rev: 2, Len: 721 -> SSDT-10-Wwan.aml
+12:437  0:037    21. 7FFFD000: 'DBGP', 'TP-N20', Rev: 1, Len: 52 -> DBGP.aml
+12:474  0:037    22. 7FFB2000: 'DBG2', 'TP-N20', Rev: 0, Len: 84 -> DBG2.aml
+12:512  0:037    23. 7FFB1000: 'POAT', 'TP-N20', Rev: 3, Len: 85 -> POAT.aml
+12:549  0:037    24. 7FFB0000: 'ASF!', 'TP-N20', Rev: 32, Len: 160 -> ASF!.aml
+12:589  0:039    25. 7FFAF000: 'FPDT', 'TP-N20', Rev: 1, Len: 68 -> FPDT.aml
+12:626  0:037    26. 7FF43000: 'UEFI', 'TP-N20', Rev: 1, Len: 318 -> UEFI.aml
+12:690  0:064    27. 7FFAE000: 'BGRT', 'TP-N20', Rev: 1, Len: 56 -> BGRT.aml
+12:737  0:047    Tables in Rsdt: 28
+12:737  0:000    0. 7FFED000: 'FACP', 'TP-N20', Rev: 5, Len: 244
+12:737  0:000        (Dsdt: 7FFC3000, Facs: 7FF46000, XDsdt: 7FFC3000, XFacs: 0)
+12:737  0:000        7FFC3000: 'DSDT', 'SKL', Rev: 2, Len: 155603
+12:742  0:004        7FF46000: 'FACS', Ver: 2, Len: 64
+12:742  0:000    1. 7FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 37733
+12:742  0:000    2. 7FF5C000: 'UEFI', 'TP-N20', Rev: 1, Len: 66
+12:742  0:000    3. 7FFEF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+12:742  0:000    4. 7FFEE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+12:742  0:000    5. 7FFEC000: 'HPET', 'TP-N20', Rev: 1, Len: 56
+12:742  0:000    6. 7FFEB000: 'APIC', 'TP-N20', Rev: 3, Len: 300
+12:742  0:000    7. 7FFEA000: 'MCFG', 'TP-N20', Rev: 1, Len: 60
+12:742  0:000    8. 7FFE9000: 'ECDT', 'TP-N20', Rev: 1, Len: 83
+12:742  0:000    9. 7FFC1000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7179
+12:742  0:000    10. 7FFBF000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+12:742  0:000    11. 7FFBE000: 'BOOT', 'TP-N20', Rev: 1, Len: 40
+12:742  0:000    12. 7FFBD000: 'BATB', 'TP-N20', Rev: 2, Len: 74
+12:742  0:000    13. 7FFBB000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+12:742  0:000    14. 7FFBA000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+12:742  0:000    15. 7FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1674
+12:742  0:000    16. 7FFB8000: 'LPIT', 'TP-N20', Rev: 1, Len: 148
+12:742  0:000    17. 7FFB7000: 'WSMT', 'TP-N20', Rev: 1, Len: 40
+12:742  0:000    18. 7FFB6000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+12:742  0:000    19. 7FFB5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+12:742  0:000    20. 7FFB4000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+12:742  0:000    21. 7FFFD000: 'DBGP', 'TP-N20', Rev: 1, Len: 52
+12:742  0:000    22. 7FFB2000: 'DBG2', 'TP-N20', Rev: 0, Len: 84
+12:742  0:000    23. 7FFB1000: 'POAT', 'TP-N20', Rev: 3, Len: 85
+12:742  0:000    24. 7FFB0000: 'ASF!', 'TP-N20', Rev: 32, Len: 160
+12:742  0:000    25. 7FFAF000: 'FPDT', 'TP-N20', Rev: 1, Len: 68
+12:742  0:000    26. 7FF43000: 'UEFI', 'TP-N20', Rev: 1, Len: 318
+12:742  0:000    27. 7FFAE000: 'BGRT', 'TP-N20', Rev: 1, Len: 56
+12:742  0:000  Found UEFI Acpi 1.0 RSDP at 7FFFE000
+12:742  0:000  Printing ACPI tables from RSDP 7FFFE000 ...
+12:742  0:000   7FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+12:742  0:000    (Rsdt: 7FFB3000)
+12:742  0:000    7FFB3000: 'RSDT', 'TP-N20', Rev: 1, Len: 148
+12:742  0:000    Tables in Rsdt: 28
+12:742  0:000    0. 7FFED000: 'FACP', 'TP-N20', Rev: 5, Len: 244
+12:742  0:000        (Dsdt: 7FFC3000, Facs: 7FF46000, XDsdt: 7FFC3000, XFacs: 0)
+12:742  0:000        7FFC3000: 'DSDT', 'SKL', Rev: 2, Len: 155603
+12:746  0:004        7FF46000: 'FACS', Ver: 2, Len: 64
+12:746  0:000    1. 7FFF3000: 'SSDT', 'DptfTabl', Rev: 2, Len: 37733
+12:746  0:000    2. 7FF5C000: 'UEFI', 'TP-N20', Rev: 1, Len: 66
+12:746  0:000    3. 7FFEF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+12:746  0:000    4. 7FFEE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+12:746  0:000    5. 7FFEC000: 'HPET', 'TP-N20', Rev: 1, Len: 56
+12:746  0:000    6. 7FFEB000: 'APIC', 'TP-N20', Rev: 3, Len: 300
+12:746  0:000    7. 7FFEA000: 'MCFG', 'TP-N20', Rev: 1, Len: 60
+12:746  0:000    8. 7FFE9000: 'ECDT', 'TP-N20', Rev: 1, Len: 83
+12:746  0:000    9. 7FFC1000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7179
+12:746  0:000    10. 7FFBF000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+12:746  0:000    11. 7FFBE000: 'BOOT', 'TP-N20', Rev: 1, Len: 40
+12:746  0:000    12. 7FFBD000: 'BATB', 'TP-N20', Rev: 2, Len: 74
+12:746  0:000    13. 7FFBB000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+12:746  0:000    14. 7FFBA000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+12:746  0:000    15. 7FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1674
+12:746  0:000    16. 7FFB8000: 'LPIT', 'TP-N20', Rev: 1, Len: 148
+12:746  0:000    17. 7FFB7000: 'WSMT', 'TP-N20', Rev: 1, Len: 40
+12:746  0:000    18. 7FFB6000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+12:746  0:000    19. 7FFB5000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+12:746  0:000    20. 7FFB4000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+12:746  0:000    21. 7FFFD000: 'DBGP', 'TP-N20', Rev: 1, Len: 52
+12:746  0:000    22. 7FFB2000: 'DBG2', 'TP-N20', Rev: 0, Len: 84
+12:746  0:000    23. 7FFB1000: 'POAT', 'TP-N20', Rev: 3, Len: 85
+12:746  0:000    24. 7FFB0000: 'ASF!', 'TP-N20', Rev: 32, Len: 160
+12:746  0:000    25. 7FFAF000: 'FPDT', 'TP-N20', Rev: 1, Len: 68
+12:746  0:000    26. 7FF43000: 'UEFI', 'TP-N20', Rev: 1, Len: 318
+12:746  0:000    27. 7FFAE000: 'BGRT', 'TP-N20', Rev: 1, Len: 56

@@ -1,0 +1,35 @@
+
+Clover EFI installer log - Sat Oct 12 14:21:27 +08 2019
+Installer version: v2.5k r5070 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         250.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         249.8 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.8 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Preboot                 44.4 MB    disk1s2
+   2:                APFS Volume Recovery                510.4 MB   disk1s3
+   3:                APFS Volume VM                      1.1 MB     disk1s4
+   4:                APFS Volume HacKintosh HD           45.4 GB    disk1s6
+
+Target volume /Volumes/HacKintosh HD on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/HacKintosh HD/EFIROOTDIR/EFI folder to /Volumes/HacKintosh HD/EFI-Backups/r5064/2019-10-12-14h21/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'Mojave'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
