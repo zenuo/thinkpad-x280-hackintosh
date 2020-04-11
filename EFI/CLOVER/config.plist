@@ -14,8 +14,6 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddDTGP</key>
-				<true/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>FixRegions</key>
@@ -178,7 +176,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-cdfon lilucpu=9 darkwake=0</string>
+		<string>-cdfon lilucpu=9 -disablegfxfirmware</string>
 		<key>DefaultVolume</key>
 		<string>Preboot</string>
 		<key>Timeout</key>
@@ -446,27 +444,21 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>MLB</key>
-		<string>C02707609GUHWVP8C</string>
-		<key>ROM</key>
-		<data>
-		PaqK9oSi
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>10/30/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0178.B00.1806260902</string>
+		<string>MBP141.88Z.F000.B00.1910301943</string>
 		<key>Board-ID</key>
 		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02752207GUHWVP1F</string>
+		<string>C02916306GUHWVPA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -477,12 +469,14 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>203.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xFC0FE176</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF1FFF7F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -494,11 +488,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VWFZDHV29</string>
+		<string>C02YLVZSHV29</string>
 		<key>SmUUID</key>
-		<string>2449F1C3-36B9-4C26-8316-6A735BF684A2</string>
-		<key>Trust</key>
-		<true/>
+		<string>396CF24C-EC8B-4D17-A95D-754ABA20BEC6</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
